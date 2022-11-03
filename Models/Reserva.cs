@@ -45,10 +45,7 @@ namespace hopedagem.Models
         public int ObterQuantidadeHospedes()
         {
             var qtd = 0;
-            foreach (var item in Hospedes)
-            {
-                qtd = Hospedes.Count;
-            }
+            qtd = Hospedes.Count;
             return qtd;
         }
 
